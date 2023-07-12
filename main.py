@@ -6,7 +6,7 @@ bot.remove_command('help')
 
 @bot.event
 async def on_ready():
-    print('Logged in as ' + bot.user.name + '!')
+    print(f'Logged in as {bot.user.name}!')
 
 @bot.event
 async def on_message(message):
